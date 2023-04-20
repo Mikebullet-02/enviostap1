@@ -139,7 +139,8 @@
                 class="flex items-center mt-8 text-gray-600 dark:text-gray-400"
               >
                 <img
-                  src="../assets/Persona.png"
+                  src="../assets/Persona.webp"
+                  onerror="this.src='../assets/Persona.png'"
                   class="sm:w-auto h-48 pl-28 sm:h-72 sm:pl-28"
                   alt="Persona"
                 />

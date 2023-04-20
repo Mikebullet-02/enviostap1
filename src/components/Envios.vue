@@ -23,7 +23,8 @@
         </div>
         <img
           class="mr-5 sm:w-40 sm:h-28 w-32 h-24 mt-[-100px] sm:mx-auto ml-48 sm:mt-16 sm:mb-5"
-          src="../assets/SobreODM.png"
+          src="../assets/SobreODM.webp"
+          onerror="this.src='../assets/SobreODM.png'"
           alt="Sobre"
         />
       </div>
@@ -44,7 +45,8 @@
         </div>
         <img
           class="mr-5 sm:w-36 sm:h-36 w-32 h-24 mt-[-100px] sm:mx-auto ml-48 sm:mt-7 sm:mb-0"
-          src="../assets/CajaODM.png"
+          src="../assets/CajaODM.webp"
+          onerror="this.src='../assets/CajaODM.png'"
           alt="Paquete"
         />
       </div>
@@ -67,7 +69,8 @@
         </div>
         <img
           class="mr-5 sm:w-40 sm:h-40 w-32 h-36 mt-[-150px] sm:mx-auto ml-48 sm:mt-[-5px] sm:mb-0"
-          src="../assets/CajaODM.png"
+          src="../assets/CajaODM.webp"
+          onerror="this.src='../assets/CajaODM.png'"
           alt="Paquetes"
         />
       </div>
@@ -90,7 +93,8 @@
         </div>
         <img
           class="mr-5 sm:w-24 sm:h-36 w-32 h-36 mt-[-150px] sm:mx-auto ml-48 sm:mt-0 sm:mb-0"
-          src="../assets/maleta.png"
+          src="../assets/maleta.webp"
+          onerror="this.src='../assets/maleta.png'"
           alt="Maletas"
         />
       </div>
