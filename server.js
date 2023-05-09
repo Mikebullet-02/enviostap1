@@ -8,7 +8,9 @@ app.use(cors());
 app.use(express.json());
 
 
-
+app.get("/", (req, res) => {
+    res.send("Welcome to my app!");
+});
 app.post("/sendEmail", (req, res) => {
     const {
         url,
@@ -29,8 +31,9 @@ app.post("/sendEmail", (req, res) => {
 
     const mailOptions = {
         from: "desarrollowebodm@gmail.com",
-        to: "jcmurillo@odm.com.mx",
-        cc: ['cma@odm.com.mx', 'jefedigitalodm@gmail.com'],
+        to: "mauriciodelgado1300@gmail.com",
+        //to: "jcmurillo@odm.com.mx",
+        //cc: ['cma@odm.com.mx', 'jefedigitalodm@gmail.com'],
         subject: "Nuevo cliente potencial",
         html: `
         <div>

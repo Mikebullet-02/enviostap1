@@ -1,6 +1,8 @@
 <template>
   <div class="w-full">
-    <h1 class="text-4xl font-black capitalize ml-5 sm:ml-24 py-14">
+    <h1
+      class="text-4xl font-black capitalize ml-5 sm:ml-11 md:ml-14 lg:ml-14 py-14 2xl:ml-24"
+    >
       CALCULA EL PESO DE TU PAQUETE
     </h1>
     <div class="my-0 mb-0">
@@ -9,7 +11,7 @@
           <img
             src="../assets/Calculadora.webp"
             onerror="this.src='../assets/Calculadora.png'"
-            class="h-80 w-80 sm:w-96 sm:h-80"
+            class="h-72 w-72 sm:w-80 sm:h-90"
             alt="CajaCalculadora"
           />
         </div>

@@ -1,22 +1,22 @@
 <template>
   <li
-    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-2xl pl-5 sm:p-0 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
+    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-xl md:text-xl lg:text-xl 2xl:text-2xl px-5 sm:p-0 md:px-0 lg:px-0 xl:px-5 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
   >
     <a href="#envios" class="inline">Tipos de envíos</a>
   </li>
 
   <li
-    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-2xl pl-5 sm:p-0 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
+    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-xl md:text-xl lg:text-xl 2xl:text-2xl px-5 sm:p-0 md:px-0 lg:px-0 xl:px-5 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
   >
     <a href="#cobertura" class="inline">Cobertura de envíos</a>
   </li>
   <li
-    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-2xl pl-5 sm:p-0 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
+    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-xl md:text-xl lg:text-xl 2xl:text-2xl px-5 sm:p-0 md:px-0 lg:px-0 xl:px-5 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
   >
     <a href="#calcula" class="inline">Calcula tu paquete</a>
   </li>
   <li
-    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-2xl pl-5 sm:p-0 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
+    class="hover:text-blue-600 mt-3 mb-3 font-regular sm:font-bold text-xl sm:text-xl md:text-xl lg:text-xl 2xl:text-2xl px-5 sm:p-0 md:px-0 lg:px-0 xl:px-5 text-left sm:text-center text-white md:text-[#003368] xl:text-[#003368]"
   >
     <a href="#tarifas" class="inline">Tarifas preferenciales</a>
   </li>

@@ -1,12 +1,12 @@
 <template>
   <section class="bg-[#003368]">
     <div
-      class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8"
+      class="max-w-screen-xl px-4 py-10 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8"
     >
       <nav class="flex flex-wrap justify-center -mx-5 -my-2">
         <div class="px-5 py-2">
           <a
-            href="https://odm.com.mx/quienes-somos2"
+            href="https://tap.com.mx/"
             class="text-base leading-6 text-white hover:text-neutral-600"
           >
             ¿Quiénes somos?
@@ -14,7 +14,7 @@
         </div>
         <div class="px-5 py-2">
           <a
-            href="https://odm.com.mx/preguntas-frecuentes"
+            href="https://tap.com.mx/tap-envios/preguntas-frecuentes.html"
             class="text-base leading-6 text-white hover:text-neutral-600"
           >
             Preguntas frecuentes
@@ -22,7 +22,7 @@
         </div>
         <div class="px-5 py-2">
           <a
-            href="http://venta.odm.com.mx/netScripts/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG&_gl=1*z7x1y0*_ga*NjAyODM2MzE2LjE2NzI0MjgyOTU.*_ga_6MKKJY80T1*MTY3OTY3MDk4NC4xMDQuMS4xNjc5NjcyNjE0LjQ5LjAuMA.."
+            href="https://venta.tap.com.mx/netScripts/Request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG"
             class="text-base leading-6 text-white hover:text-neutral-600"
           >
             Agencias
@@ -30,7 +30,7 @@
         </div>
         <div class="px-5 py-2">
           <a
-            href="https://odm.com.mx/contactanos"
+            href="tel:+8000011827"
             class="text-base leading-6 text-white hover:text-neutral-600"
           >
             Contáctanos
@@ -38,12 +38,12 @@
         </div>
       </nav>
       <img
-        src="../assets/logoblanco.webp"
+        src="../assets/logoTAP_Blanco_2lineas.svg "
         alt="Logo"
-        class="w-80 h-28 mx-auto"
+        class="w-60 h-24 mx-auto"
       />
-      <div class="flex justify-center mt-8 space-x-6">
-        <a href="#" class="text-white hover:text-neutral-600">
+      <div class="flex justify-center mt-5 space-x-6">
+        <a href="https://www.facebook.com/TAPautobuses/?fref=ts" class="text-white hover:text-neutral-600">
           <span class="sr-only">Facebook</span>
           <svg
             class="w-6 h-6"
@@ -58,7 +58,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#" class="text-white hover:text-gray-600">
+        <a href="https://twitter.com/Autobuses_TAP" class="text-white hover:text-gray-600">
           <span class="sr-only">Twitter</span>
           <svg
             class="w-6 h-6"
@@ -71,7 +71,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#" class="text-white hover:text-gray-600">
+        <a href="https://www.instagram.com/autobusestap/" class="text-white hover:text-gray-600">
           <span class="sr-only">Instagram</span>
           <svg
             class="w-6 h-6"
@@ -86,7 +86,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#" class="text-white hover:text-gray-600">
+        <a href="https://www.youtube.com/user/AUTOBUSESTAP" class="text-white hover:text-gray-600">
           <span class="sr-only">YouTube</span>
           <svg
             aria-hidden="true"
@@ -105,7 +105,7 @@
       <p
         class="mt-8 text-base leading-6 text-center text-white hover:text-neutral-600"
       >
-        <a href="https://odm.com.mx/aviso-privacidad"
+        <a href="https://tap.com.mx/aviso-de-privacidad.html"
           >Aviso de privacidad | Políticas de viaje</a
         >
       </p>

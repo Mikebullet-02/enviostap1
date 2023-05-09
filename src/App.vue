@@ -3,31 +3,33 @@
   <Header></Header>
   <div
     id="envios"
-    class="flex flex-col w-full lg:px-52 md:px-0 sm:lg:px-0 px-0 my-auto"
+    class="flex flex-col w-full 2xl:px-32 xl:px-32 lg:px-0 md:px-0 sm:px-0 px-0 my-auto"
   >
     <Envios></Envios>
   </div>
   <div
     id="cobertura"
-    class="flex flex-col w-full sm:w-full px-3 lg:px-52 md:px-0 sm:lg:px-0 my-auto"
+    class="flex flex-col w-full sm:w-full md:w-full lg:w-[1024px] xl:w-[1280px] 2xl:w-full px-3 2xl:px-32 xl:px-32 lg:px-0 md:px-0 sm:lg:px-0 my-auto"
   >
     <h1
-      class="text-4xl font-black capitalize ml-5 sm:ml-24 pt-16 pb-5 sm:pt-15 sm:pb-5"
+      class="text-4xl font-black capitalize ml-5 sm:ml-8 md:ml-14 lg:ml-14 xl:ml-14 2xl:ml-24 pt-16 pb-5 sm:pt-15 sm:pb-5"
     >
       COBERTURA DE ENVÍOS
     </h1>
-    <h2 class="text-2xl font-regular ml-5 sm:ml-28 pb-8">
+    <h2
+      class="text-2xl font-regular ml-5 sm:ml-10 md:ml-16 lg:ml-18 xl:ml-16 2xl:ml-32 pb-8"
+    >
       Selecciona la ciudad desde donde envías tu paquete y el destino.
     </h2>
     <div class="mx-auto">
       <div
-        class="flex flex-wrap justify-center pt-0 pb-5 sm:pb-8 sm:space-x-40"
+        class="flex flex-wrap justify-center pt-0 pb-5 pl-0 sm:pl-0 lg:pr-32 xl:pl-24 md:px-auto sm:pb-8 space-x-0 sm:space-x-0 lg:space-x-0"
       >
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 md:mb-0">
+        <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-8 md:mb-8">
           <select
             v-model="origen"
             @change="(e) => cargar(e)"
-            class="block sm:w-96 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="block sm:w-[580px] md:w-[350px] lg:w-72 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="¿Dónde dejar tus paquetes?"
           >
             <option>¿Dónde dejar tus paquetes?</option>
@@ -63,21 +65,21 @@
               />
             </svg>
             <div>
-              <h2 class="text-2xl sm:text-4xl font-bold">Dirección</h2>
-              <h3 class="text-gray-500 text-xl sm:text-2xl">De:</h3>
+              <h2 class="text-2xl sm:text-3xl font-bold">Dirección</h2>
+              <h3 class="text-gray-500 text-xl sm:text-xl">De:</h3>
               <p
                 v-if="origen != null"
-                class="text-xl sm:text-3xl text-[#003386]"
+                class="text-xl sm:text-2xl text-[#003386]"
               >
                 {{ origen.ubicacion }}
               </p>
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-0 md:mb-0">
+        <div class="w-full md:w-1/2 lg:w-1/3 pl-4 mb-0 md:mb-0">
           <select
             v-model="destino"
-            class="block sm:w-96 w-72 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="block sm:w-[580px] md:w-[350px] w-72 lg:w-72 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           >
             <option value="">¿Dónde recoger tus paquetes?</option>
             <option
@@ -112,11 +114,11 @@
               />
             </svg>
             <div>
-              <h2 class="text-2xl sm:text-4xl font-bold">Dirección</h2>
-              <h3 class="text-gray-500 text-xl sm:text-2xl">A:</h3>
+              <h2 class="text-2xl sm:text-3xl font-bold">Dirección</h2>
+              <h3 class="text-gray-500 text-xl sm:text-xl">A:</h3>
               <p
                 v-if="destino != null"
-                class="text-xl sm:text-3xl text-[#003386]"
+                class="text-xl sm:text-2xl text-[#003386]"
               >
                 {{ destino.direccion }}
               </p>
@@ -126,11 +128,11 @@
       </div>
     </div>
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 sm:gap-3 place-items-center px-auto sm:px-fixed mx-0 sm:mx-20"
+      class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 sm:gap-3 place-items-center px-auto sm:px-fixed xl:px-auto mx-0 sm:mx-20 xl:px-20"
     >
       <div
         v-if="destino != null"
-        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-1/2"
+        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-full xl:w-3/4"
       >
         <p
           class="font-extrabold text-2xl sm:text-4xl text-center sm:pt-2 text-white"
@@ -150,7 +152,7 @@
       </div>
       <div
         v-if="destino != null"
-        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-1/2"
+        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-full xl:w-3/4"
       >
         <p
           class="font-extrabold text-2xl sm:text-4xl text-center sm:pt-2 text-white"
@@ -170,7 +172,7 @@
       </div>
       <div
         v-if="destino != null"
-        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-1/2"
+        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-full xl:w-3/4"
       >
         <p
           class="font-extrabold text-2xl sm:text-4xl text-center sm:pt-2 text-white"
@@ -190,7 +192,7 @@
       </div>
       <div
         v-if="destino != null"
-        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-1/2"
+        class="bg-gray-800 p-4 rounded-lg text-center w-full sm:w-full xl:w-3/4"
       >
         <p
           class="font-extrabold text-2xl sm:text-4xl text-center sm:pt-2 text-white"
@@ -231,20 +233,20 @@
     </div>
 
     <div
-      class="h-auto w-full pt-5 pb-5 mt-5 text-center bg-blue-900 text-white font-extrabold align-middle text-2xl pl-0 pr-0 px-3"
+      class="h-auto w-full pt-5 pb-5 mt-5 sm:w-full text-center bg-blue-900 text-white font-extrabold align-middle text-2xl pl-0 pr-0 px-3"
     >
       <p>***VALOR DE REFERENCIA SUJETO A CAMBIOS***</p>
     </div>
   </div>
   <div
     id="calcula"
-    class="flex flex-col w-full lg:px-52 md:px-0 sm:lg:px-0 px-0 my-auto"
+    class="flex flex-col w-full 2xl:px-32 xl:px-32 md:px-0 sm:lg:px-0 px-0 my-auto"
   >
     <Calculadora></Calculadora>
   </div>
   <div
     id="tarifas"
-    class="flex flex-col w-full lg:px-52 md:px-0 sm:lg:px-0 px-0 my-auto"
+    class="flex flex-col w-full 2xl:px-32 xl:px-32 md:px-0 sm:lg:px-0 px-0 my-auto"
   >
     <Formulario></Formulario>
   </div>

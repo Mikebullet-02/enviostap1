@@ -1,13 +1,13 @@
 <template>
-  <div class="sm:bg-white top-0 z-10 sticky w-screen sm:w-auto">
+  <div class="sm:bg-white top-0 z-10 sticky w-screen md:w-screen">
     <nav
-      class="pl-0 px-6 sm:py-5 mr-4 md:mr-32 mx-auto md:flex md:justify-between md:items-center sm:order-first"
+      class="pl-0 px-6 sm:py-5 mr-4 md:mr-32 mx-auto md:flex md:justify-between md:items-center sm:order-first sm:mr-16 sm:ml-32 md:ml-[20px] lg:mr-[0px] lg:ml-[55px] xl:pl-[90px] 2xl:mr-28"
     >
       <div class="flex items-center justify-between mt-0">
         <!-- Mobile menu button -->
         <div
           @click="toggleNav"
-          class="flex md:hidden ml-auto bg-white bg-opacity-70"
+          class="flex md:hidden ml-[300px] sm:ml-[500px] bg-white bg-opacity-70"
         >
           <button
             type="button"
@@ -23,33 +23,31 @@
           </button>
         </div>
       </div>
-      <div
-        class="hidden md:block sm:mr-16 sm:ml-32 sm:ml-5 md:ml-[100px] md:mr-[50px] lg:ml-[200px] lg:ml-[120px] xl:ml-[240px]"
-      >
+      <div class="hidden md:block">
         <ul
-          class="flex-col mt-0 mr-20 md:flex md:flex-row md:items-center md:space-x-10 md:mt-0 bg-[#003368] h-screen sm:h-auto lg:bg-transparent md:bg-white sm:bg-[#003368] z-0"
+          class="flex-col mt-0 mr-20 md:flex md:flex-row md:items-center md:space-x-10 lg:space-x-16 xl:space-x-0 2xl:space-x-10 md:mt-0 bg-[#003368] h-screen sm:h-auto lg:bg-transparent md:bg-white sm:bg-[#003368] z-0"
         >
           <img
-            src="../assets/ODMenvios.webp"
-            onerror="this.src='../assets/ODMenvios.png'"
+            src="../assets/enviostap.png"
             class="w-48 2xl:mr-[150px]"
+            alt="Logo ODM envios"
           />
           <Links />
         </ul>
       </div>
-      <div class="w-full relative sm:hidden z-0 top-[-56px]">
+      <div class="w-full relative md:hidden z-0 top-[-56px]">
         <div
           v-if="showMenu"
           @click="toggleNav"
           :class="showMenu ? 'bg-black opacity-25' : ''"
-          class="absolute w-screen h-screen"
+          class="absolute w-screen h-screen sm:w-screen sm:h-screen"
         ></div>
-        <div class="absolute w-3/4 bg-gray-200" @click="toggleNav">
+        <div class="absolute w-3/4 sm:w-3/4 bg-gray-200" @click="toggleNav">
           <img
-            src="../assets/ODMenvios.webp"
-            onerror="this.src='../assets/ODMenvios.png'"
-            class="sm:hidden w-full p-8"
+            src="../assets/enviostap.png"
+            class="md:hidden w-full p-8"
             :class="showMenu ? 'flex' : 'hidden'"
+            alto="Logo ODM envios"
           />
           <ul
             :class="
