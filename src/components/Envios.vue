@@ -79,7 +79,7 @@
         />
       </div>
       <div
-        class="flex flex-col max-w-md bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 my-3 sm:my-0 sm:w-72 md:w-72 lg:w-72 xl:w-72 sm:h-96"
+        class="flex flex-col max-w-md bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 my-3 sm:my-0 sm:w-72 md:w-72 lg:w-60 xl:w-72 sm:h-96"
       >
         <div class="p-5 pt-3 sm:p-5">
           <h1

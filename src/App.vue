@@ -29,7 +29,7 @@
           <select
             v-model="origen"
             @change="(e) => cargar(e)"
-            class="block sm:w-[580px] md:w-[350px] lg:w-72 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="block w-[300px] sm:w-[580px] md:w-[300px] lg:w-80 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="¿Dónde dejar tus paquetes?"
           >
             <option>¿Dónde dejar tus paquetes?</option>
@@ -79,7 +79,7 @@
         <div class="w-full md:w-1/2 lg:w-1/3 pl-4 mb-0 md:mb-0">
           <select
             v-model="destino"
-            class="block sm:w-[580px] md:w-[350px] w-72 lg:w-72 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="block w-[300px] sm:w-[580px] md:w-[300px] lg:w-80 py-3 px-4 leading-tight text-gray-700 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-[#D9D9D9] dark:border-white dark:placeholder-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           >
             <option value="">¿Dónde recoger tus paquetes?</option>
             <option

@@ -7,7 +7,7 @@
         <!-- Mobile menu button -->
         <div
           @click="toggleNav"
-          class="flex md:hidden ml-[300px] sm:ml-[500px] bg-white bg-opacity-70"
+          class="flex md:hidden ml-[300px] sm:ml-[450px] bg-white bg-opacity-70"
         >
           <button
             type="button"
@@ -35,12 +35,12 @@
           <Links />
         </ul>
       </div>
-      <div class="w-full relative md:hidden z-0 top-[-56px]">
+      <div class="w-full relative md:hidden z-0 top-[-56px] sm:ml-[-128px]">
         <div
           v-if="showMenu"
           @click="toggleNav"
           :class="showMenu ? 'bg-black opacity-25' : ''"
-          class="absolute w-screen h-screen sm:w-screen sm:h-screen"
+          class="absolute w-screen h-screen md:h-screen md:w-screen"
         ></div>
         <div class="absolute w-3/4 sm:w-3/4 bg-gray-200" @click="toggleNav">
           <img
@@ -55,7 +55,7 @@
                 ? 'flex flex-col justify-start opacity-100 w-full'
                 : 'hidden'
             "
-            class="flex-col mt-0 mr-20 md:flex md:flex-row md:items-center md:space-x-10 md:mt-0 bg-[#003368] h-screen sm:h-auto lg:bg-transparent md:bg-white sm:bg-[#003368] z-0"
+            class="flex-col mt-0 mr-20 md:flex md:flex-row md:items-center md:space-x-10 md:mt-0 bg-[#003368] h-screen md:h-auto lg:bg-transparent md:bg-white sm:bg-[#003368] z-0"
           >
             <Links />
           </ul>

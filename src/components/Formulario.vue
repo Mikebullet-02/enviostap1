@@ -249,7 +249,7 @@ const handleSubmit = () => {
   };
 
   console.log(data);
-  fetch("https://enviosodm.herokuapp.com/sendEmail", {
+  fetch("http://localhost:5000/sendEmail", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

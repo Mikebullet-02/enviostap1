@@ -31,7 +31,7 @@
       </div>
 
       <div
-        class="mx-auto sm:w-auto sm:pt-[-100px] lg:pt-5 sm:ml-[-30px] sm:py-0 sm:px-20 md:ml-[90px] md:py-15 md:pt-5 md:pl-5 lg:pl-24 2xl:py-16"
+        class="mx-auto sm:w-auto sm:pt-[-100px] lg:pt-5 sm:ml-[-10px] sm:py-0 sm:px-20 md:ml-[60px] md:py-15 md:pt-5 md:pl-5 lg:pl-24 2xl:py-16"
       >
         <button
           class="bg-[#003368] h-20 sm:h-20 hover:bg-blue-600 text-white text-xl sm:text-2xl font-extrabold py-2 px-14 sm:py-2 sm:px-18"

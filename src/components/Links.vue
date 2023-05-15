@@ -20,9 +20,9 @@
   >
     <a href="#tarifas" class="inline">Tarifas preferenciales</a>
   </li>
-  <hr class="h-px mt-64 sm:hidden" />
+  <hr class="h-px mt-64 md:hidden" />
   <li
-    class="mt-3 hover:text-blue-600 mb-3 font-regular sm:font-extrabold text-xl sm:text-2xl pl-5 text-left sm:text-center sm:hidden text-white md:text-[#003368] xl:text-[#003368]"
+    class="mt-3 hover:text-blue-600 mb-3 font-regular sm:font-bold text-xl sm:text-xl pl-5 text-left sm:text-center md:hidden text-white md:text-[#003368] xl:text-[#003368]"
   >
     <a href="https://odm.com.mx/aviso-privacidad" target="_blank"
       >Aviso de privacidad</a

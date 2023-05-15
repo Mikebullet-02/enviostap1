@@ -37,7 +37,7 @@ app.post("/sendEmail", (req, res) => {
         subject: "Nuevo cliente potencial",
         html: `
         <div>
-        <img src="https://odm.com.mx/images/ODMenvios.png" alt="logo" border="0" width="300" height="auto" />
+        <img src="https://tap.com.mx/headerFooter/img/tap-envios-logo.jpg" alt="logo" border="0" width="300" height="auto" />
         <h1>¡Nuevo cliente potencial!</h1>
         <p>Nombre: ${url}</p>
         <p>Teléfono: <a href="tel:${telefono}">${telefono}</a></p>
