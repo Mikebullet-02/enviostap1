@@ -9,7 +9,7 @@
   </div>
   <div
     id="cobertura"
-    class="flex flex-col w-full sm:w-full md:w-full lg:w-[1024px] xl:w-[1280px] 2xl:w-full px-3 2xl:px-32 xl:px-32 lg:px-0 md:px-0 sm:lg:px-0 my-auto"
+    class="flex flex-col w-full sm:w-full md:w-full lg:w-auto xl:w-auto 2xl:w-full px-3 2xl:px-32 xl:px-32 lg:px-0 md:px-0 sm:lg:px-0 my-auto"
   >
     <h1
       class="text-4xl font-black capitalize ml-5 sm:ml-8 md:ml-14 lg:ml-14 xl:ml-14 2xl:ml-24 pt-16 pb-5 sm:pt-15 sm:pb-5"
@@ -128,7 +128,7 @@
       </div>
     </div>
     <div
-      class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 sm:gap-3 place-items-center px-auto sm:px-fixed xl:px-auto mx-0 sm:mx-20 xl:px-20"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 sm:gap-3 place-items-center px-auto sm:px-fixed xl:px-auto mx-0 sm:mx-20 xl:px-20"
     >
       <div
         v-if="destino != null"
